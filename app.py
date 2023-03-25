@@ -5,7 +5,7 @@ from aiogram.types import Message, CallbackQuery
 from downloader import second, hd1080, hd360, hd720, highest, norm, get_audio
 
 logging.basicConfig(level=logging.INFO)
-bot = Bot(token=TOKEN)
+bot = Bot(token='6154632089:AAHXXUYinw6FIGzKi08heB_HvHeMkJsdrA8')
 dp = Dispatcher(bot)
 
 
