@@ -2,7 +2,7 @@ from pytube import YouTube
 from moviepy.editor import VideoFileClip
 
 
-hd1080 = 137
+hd1080 = 17
 hd720 = 22
 hd360 = 18
 
@@ -42,4 +42,11 @@ def get_audio(url):
     # return endfilename
 
 
-# second('https://www.youtube.com/watch?v=tWoo8i_VkvI')
+# highest('https://www.youtube.com/watch?v=o0dj26U_TCo')
+
+# import pytube
+
+# a = pytube.YouTube('https://www.youtube.com/watch?v=Ypi-58aCkfA').streams
+
+# for i in a:
+    # print(i)

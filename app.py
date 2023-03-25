@@ -35,7 +35,7 @@ async def buy_books(call: CallbackQuery):
     await call.message.delete()
     await call.message.answer('1 daqiqagacha kuting...')
     cit = call.message.chat.id
-    titles = '📹' + pytube.YouTube(url).title + f'\n🔗{channel}\nVideo yuklab olindi⚡️'
+    titles = '📹' + pytube.YouTube(url).title + f'\n🔗{channel}\nVid    eo yuklab olindi⚡️'
     filename = pytube.YouTube(url).streams.get_by_itag(hd360).default_filename
     time.sleep(25)
     second(url)
@@ -57,7 +57,7 @@ async def buy_books(call: CallbackQuery):
         await bot.send_video(chat_id=cit, video=video_file, caption=titles)
     os.remove(filename)
 
-@dp.callback_query_handler(text_contains="high")
+@dp.callback_query_handler(text_contains="easy")
 async def buy_books(call: CallbackQuery):
     callback_data = call.data
     await call.message.delete()
